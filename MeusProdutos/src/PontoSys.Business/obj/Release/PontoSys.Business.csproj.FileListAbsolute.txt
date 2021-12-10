@@ -1,0 +1,9 @@
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\bin\Release\PontoSys.Business.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\bin\Release\PontoSys.Business.pdb
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\bin\Release\FluentValidation.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\bin\Release\FluentValidation.xml
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\obj\Release\PontoSys.Business.csproj.AssemblyReference.cache
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\obj\Release\PontoSys.Business.csproj.CoreCompileInputs.cache
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\obj\Release\PontoSys.Business.csproj.CopyComplete
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\obj\Release\PontoSys.Business.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Business\obj\Release\PontoSys.Business.pdb

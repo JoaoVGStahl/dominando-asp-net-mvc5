@@ -1,0 +1,16 @@
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\PontoSys.Infra.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\PontoSys.Infra.pdb
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\obj\Debug\PontoSys.Infra.csproj.CoreCompileInputs.cache
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\obj\Debug\PontoSys.Infra.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\obj\Debug\PontoSys.Infra.pdb
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\PontoSys.Business.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\PontoSys.Business.pdb
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\obj\Debug\PontoSys.Infra.csproj.AssemblyReference.cache
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\obj\Debug\PontoSys.Infra.csproj.CopyComplete
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\PontoSys.Infra.dll.config
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\EntityFramework.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\EntityFramework.xml
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\FluentValidation.dll
+C:\dev\dominando-asp-net-mvc5\MeusProdutos\src\PontoSys.Infra\bin\Debug\FluentValidation.xml

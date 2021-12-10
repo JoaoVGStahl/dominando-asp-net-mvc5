@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4c71c04f-9ddc-4b5d-986c-1752bcdf3a03": {
+      "ProjectGuid": "4c71c04f-9ddc-4b5d-986c-1752bcdf3a03",
+      "DisplayName": "PontoSys.AppMvc",
+      "ColorIndex": 0
+    },
+    "21140e77-9924-4a40-8ba0-52b1d10f0c50": {
+      "ProjectGuid": "21140e77-9924-4a40-8ba0-52b1d10f0c50",
+      "DisplayName": "PontoSys.Business",
+      "ColorIndex": 1
+    },
+    "1f65d525-99ac-4e6d-bd54-458f398bb96a": {
+      "ProjectGuid": "1f65d525-99ac-4e6d-bd54-458f398bb96a",
+      "DisplayName": "PontoSys.Infra",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

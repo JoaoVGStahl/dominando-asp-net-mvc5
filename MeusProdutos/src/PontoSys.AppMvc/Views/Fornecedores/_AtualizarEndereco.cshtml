@@ -1,0 +1,38 @@
+﻿@model PontoSys.AppMvc.ViewModels.FornecedorViewModel
+@{
+    ViewData["Title"] = "Atualizar Endereço";
+}
+
+<div class="modal-header">
+    <h4 class="modal-title">
+        @ViewData["Title"]
+
+        <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">X</span><span class="sr-only">Fechar</span>
+        </button>
+    </h4>
+
+</div>
+<br />
+<br />
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal col-md-offset-1">
+        @Html.HiddenFor(model => model.Endereco.FornecedorId)
+        @Html.HiddenFor(model => model.Endereco.Id)
+
+        @Html.Partial("_Endereco")
+
+        <div class="modal-footer">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Salvar" class="btn btn-success" />
+                <input type="button" class="btn btn-default" value="Fechar" data-dismiss="modal" />
+            </div>
+        </div>
+    </div>
+}
+<script>
+    BuscaCep();
+</script>

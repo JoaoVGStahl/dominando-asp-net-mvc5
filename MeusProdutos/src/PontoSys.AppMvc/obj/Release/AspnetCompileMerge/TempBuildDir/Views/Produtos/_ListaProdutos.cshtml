@@ -1,0 +1,52 @@
+﻿@using PontoSys.AppMvc.Extensions
+@model IEnumerable<PontoSys.AppMvc.ViewModels.ProdutoViewModel>
+
+<table class="table table-hover">
+    <tr>
+        <th>
+
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fornecedor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Valor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ativo)
+        </th>
+        <th>Ações</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <img src="~/imagens/@item.Imagem" alt="@item.Imagem" style="width: 70px; height:100px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fornecedor.Nome)
+            </td>
+            <td>
+                @item.Valor.ToString("C")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ativo)
+            </td>
+            <td>
+                <a class="btn btn-info" href="@Url.Action("Details", "Produtos", new {id = item.Id})"><span class="glyphicon glyphicon-list-alt"></span></a>
+
+                <a class="btn btn-warning" href="@Url.ActionComPermissao("Edit","Produtos",new {id = item.Id}, "Produto", "Editar")"><span class="glyphicon glyphicon-pencil"></span></a>
+
+                <a class="btn btn-danger" href="@Url.Action("Delete", "Produtos", new {id = item.Id})"><span class="glyphicon glyphicon-trash"></span></a>
+            </td>
+        </tr>
+    }
+
+</table>

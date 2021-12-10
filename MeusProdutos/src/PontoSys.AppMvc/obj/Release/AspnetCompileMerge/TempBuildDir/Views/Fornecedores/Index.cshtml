@@ -1,0 +1,52 @@
+﻿@using PontoSys.AppMvc.Extensions
+@model IEnumerable<PontoSys.AppMvc.ViewModels.FornecedorViewModel>
+@{
+    ViewBag.Title = "Lista de Fornecedores";
+}
+
+<h2>@ViewBag.Title</h2>
+<hr />
+<p>
+    <a class="btn btn-success" href="@Url.Action("Create","Fornecedores")">Novo Fornecedor</a>
+</p>
+<hr />
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Documento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativo)
+            </th>
+
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelitem => item.Nome)
+            </td>
+            <td>
+                @this.FormatarDocumento(item.TipoFornecedor, item.Documento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelitem => item.Ativo)
+            </td>
+
+            <td >
+                <a class="btn btn-info" href="@Url.Action("Details", "Fornecedores", new {id = item.Id})"><span class="glyphicon glyphicon-list-alt"></span></a>
+                <a class="btn btn-warning" href="@Url.Action("Edit", "Fornecedores", new {id = item.Id})"><span class="glyphicon glyphicon-pencil"></span></a>
+                <a class="btn btn-danger" href="@Url.Action("Delete", "Fornecedores", new {id = item.Id})"><span class="glyphicon glyphicon-trash"></span></a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
+

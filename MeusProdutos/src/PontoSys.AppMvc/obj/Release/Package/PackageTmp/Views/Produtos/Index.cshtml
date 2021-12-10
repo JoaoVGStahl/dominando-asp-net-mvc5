@@ -1,0 +1,20 @@
+﻿@using PontoSys.AppMvc.Extensions
+@model IEnumerable<PontoSys.AppMvc.ViewModels.ProdutoViewModel>
+
+@{
+    ViewBag.Title = "Lista de Produtos";
+}
+
+<h2>@ViewBag.Title</h2>
+<hr />
+@{ if (this.PermitirVer("Produto", "Criar"))
+    {
+        <div>
+            <a href="@Url.Action("Create","Produtos")" class="btn btn-info">Novo Produto</a>
+        </div>
+    }
+}
+<hr />
+
+@Html.Partial("_ListaProdutos")
+

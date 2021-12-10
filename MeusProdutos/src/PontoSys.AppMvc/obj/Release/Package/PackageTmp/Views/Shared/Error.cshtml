@@ -1,0 +1,22 @@
+﻿@model PontoSys.AppMvc.ViewModels.ErrorViewModel
+
+@{
+    ViewBag.Title = "Ocorreu um erro!";
+}
+@if (Model == null)
+{
+
+
+    <div>
+        <h2>
+            Ixi! Ocorreu um erro! mas fique tranquilo que nossa equipe será avisada disso!
+        </h2>
+    </div>
+}
+else
+{
+    <h1>@Html.Raw(Model.Titulo)</h1>
+    <h2 class="text-danger">@Html.Raw(Model.Mensagem)</h2>
+}
+
+
